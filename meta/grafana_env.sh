@@ -1,0 +1,5 @@
+#!/bin/bash
+GRAFANA_DIRNAME=${PARCEL_DIRNAME:-"GRAFANA-7.0.3"}
+
+export GRAFANA_SERVER=$GRAFANA_DIRNAME/bin/grafana-server
+export GRAFANA_CLI=$GRAFANA_DIRNAME/bin/grafana-cli

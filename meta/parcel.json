@@ -1,0 +1,27 @@
+{
+  "schema_version":     1,
+  "name":               "CDP_GRAFANA",
+  "version":            "7.0.3-1.cdp7.0.1.p0.8",
+  "setActiveSymlink":   true,
+  "scripts": {
+    "defines": "grafana_env.sh"
+  },
+
+  "packages": [
+    { "name":    "grafana",
+      "version": "7.0.3"
+    }
+  ],
+
+  "components": [
+    { "name":    "grafana",
+      "version": "7.0.3+cdp7.0.1+0"
+    }
+  ],
+  "provides": [
+    "grafana-cdp-plugin"
+  ],
+
+  "users": { },
+  "groups": [ ]
+}
